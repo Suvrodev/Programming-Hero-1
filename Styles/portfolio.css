@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.text-primary{
+    color: orange;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    color: white;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../Assets/images/header_bg.png'),url('../Assets/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    /* margin: 0; */
+    overflow: hidden;
+}
+/* header and navigation style */
+.nav{
+    margin: 50px 200px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+/* .dv1{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+} */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+
+/* Banner Start */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* Banner End */
+
+/* main Section */
+main{
+    max-width:1140px ;
+    margin: 0 auto;
+}
+/* Main Section end */
+
+/* About Section Start */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px ;
+}
+.section-desc{
+    color: #757575;
+    font-size: 18px;
+}
+
+.About_info_Container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.Info_title{
+    font-size: 20px;
+    color: #757575;
+}
+.Info_Desc{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+/* About Section End */
