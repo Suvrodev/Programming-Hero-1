@@ -172,3 +172,29 @@ main{
     text-align: center;
 }
 /* ReSume End */
+
+
+/* Contact Me Start */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .section-title{
+    text-align: left;
+}
+.section_Description{
+    margin: 20px 0px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding:18px 30px;
+    resize: none;
+}
+/* Contact Me End */
