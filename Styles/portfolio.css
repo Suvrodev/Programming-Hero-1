@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 .text-primary{
-    color: orange;
+    color: #FD6E0A;
 }
 .btn-primary{
     height: 64px;
     border-radius: 5px;
-    background-color: orange;
+    background-color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
     color: white;
+}
+.btn-contact{
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A ;
+    margin-left: 30px;
 }
 .header{
     background: #FFF8F3;
