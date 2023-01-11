@@ -205,3 +205,142 @@ main{
     
 }
 /* Contact Me End */
+
+
+/* Media Query Start */
+@media screen and (max-width: 576px) {
+    .banner-title{
+        font-size: 18px;
+    } 
+    .banner-sub-title{
+        font-size: 25px;
+    } 
+    .banner-description{
+       
+    }
+    .btn_cv_contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+        justify-content: start;
+        align-items: center;
+    }
+    .btn-contact{
+        margin: 0 auto;
+    }
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+        justify-content: start;
+        margin: 50px auto;
+    }
+    .nav ul{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+    .nav ul li{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .Skill_Container{
+        flex-direction: column;
+    }
+    .resume_content{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .About_info_Container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .contact{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 15px 5px;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+        justify-content: start;
+        margin: 50px auto;
+    }
+    .nav-title{
+        width: 30px;
+        background-color: yellow;
+        margin: 20px auto;
+    }
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: yellow; */
+    }
+    .nav ul li{
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .btn_cv_contact{
+        text-align: center;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-contact{
+        margin: 0 auto;
+    }
+  
+    .about{
+        padding: 0px;
+    }
+    .contact{
+        padding: 40px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact div{
+        margin-bottom: 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 15px 5px;
+    }
+    .resume_content{
+        padding: 20px;
+    }
+    .Skill_Container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.hide{
+    display: none;
+}
+/* Media Query end */
